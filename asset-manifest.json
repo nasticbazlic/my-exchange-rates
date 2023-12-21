@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/my-exchange-rates/static/css/main.227cbdb0.css",
+    "main.js": "/my-exchange-rates/static/js/main.ba76e67b.js",
+    "static/media/image1.jpeg": "/my-exchange-rates/static/media/image1.4a19325965f6298bcd10.jpeg",
+    "index.html": "/my-exchange-rates/index.html",
+    "main.227cbdb0.css.map": "/my-exchange-rates/static/css/main.227cbdb0.css.map",
+    "main.ba76e67b.js.map": "/my-exchange-rates/static/js/main.ba76e67b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.227cbdb0.css",
+    "static/js/main.ba76e67b.js"
+  ]
+}
