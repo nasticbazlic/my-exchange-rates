@@ -1,0 +1,59 @@
+.rates {
+  margin-top: 5px;
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  .rates__item {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    div {
+      padding-left: 7px;
+    }
+  }
+}
+
+@media screen and (max-width: 981px) {
+  .rates {
+    width: 450px;
+    .rates__item {
+      font-size: 17px;
+      div {
+        padding-left: 5px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 720px) {
+  .rates {
+    width: 350px;
+    .rates__item {
+      font-size: 13px;
+    }
+  }
+}
+@media screen and (max-width: 590px) {
+  .rates {
+    width: 250px;
+    .rates__item {
+      font-size: 10px;
+    }
+  }
+}
+@media screen and (max-width: 450px) {
+  .rates {
+    width: 200px;
+    .rates__item {
+      font-size: 7px;
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .rates {
+    width: 150px;
+    .rates__item {
+      font-size: 5px;
+    }
+  }
+}

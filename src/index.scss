@@ -1,0 +1,19 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+  .container {
+    padding: 0 50px;
+  }
+  body {
+    background-image: url(Assets/images/image1.jpeg);
+    height: 100vh;
+    color: #fff;
+  }
+
+  @media screen and (max-width: 981px) {
+    .container {
+      padding: 0 30px;
+    }
+  }

@@ -1,0 +1,112 @@
+.converter {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    .converter__title {
+      font-size: 56px;
+      font-weight: 700;
+    }
+    .converter__content{
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      input {
+        width: 150px;
+        font-size: 20px;
+        height: 40px;
+        padding-left: 10px;
+      }
+      .converter__content_cur {
+        margin-top: 30px;
+        display: flex;
+      }
+      h3 {
+        font-size: 30px;
+        font-weight: 700;
+      }
+    }
+    .converter__result{
+      margin-top: 30px;
+      button {
+        width: 250px;
+        height: 50px;
+        border: none;
+        border-radius: 4px;
+        font-size: 25px;
+        font-weight: 700;
+      }
+      h2 {
+        margin-top: 20px;
+        font-size: 35px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 35px;
+      }
+    }
+}
+@media screen and (max-width: 981px) {
+  .converter {
+    margin-top: 30px;
+      .converter__title {
+        font-size: 46px;
+      }
+      .converter__content{
+        margin-top: 30px;
+        input {
+          width: 120px;
+          font-size: 15px;
+          height: 30px;
+        }
+        .converter__content_cur {
+          margin-top: 20px;
+        }
+        h3 {
+          font-size: 25px;
+        }
+      }
+      .converter__result{
+        margin-top: 20px;
+        button {
+          width: 160px;
+          height: 40px;
+          font-size: 20px;
+        }
+        h2 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 30px;
+        }
+      }
+  }
+}
+@media screen and (max-width: 981px) {
+  .converter {
+      .converter__title {
+        font-size: 36px;
+      }
+      .converter__content{
+        h3 {
+          font-size: 20px;
+        }
+      }
+      .converter__result{
+        button {
+          font-size: 17px;
+        }
+        h2 {
+          font-size: 25px;
+        }
+        p {
+          font-size: 25px;
+        }
+      }
+  }
+}
+@media screen and (max-width: 590px) {
+  
+}

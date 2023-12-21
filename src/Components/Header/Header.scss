@@ -1,0 +1,49 @@
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .header__logo {
+    font-size: 25px;
+    font-family: 'Permanent Marker';
+  }
+}
+@media screen and (max-width: 981px) {
+  header {
+    height: 70px;
+    .header__logo {
+      font-size: 20px;
+    }
+  }
+}
+@media screen and (max-width: 720px) {
+  header {
+    height: 50px;
+    .header__logo {
+      font-size: 17px;
+    }
+  }
+}
+@media screen and (max-width: 590px) {
+  header {
+    height: 50px;
+    .header__logo {
+      font-size: 13px;
+    }
+  }
+}
+@media screen and (max-width: 450px) {
+  header {
+    .header__logo {
+      font-size: 10px;
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  header {
+    height: 40px;
+    .header__logo {
+      font-size: 8px;
+    }
+  }
+}
